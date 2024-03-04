@@ -1,3 +1,17 @@
+# Features
+
+- [x] hi-customize theme color
+- [x] customize zoom sign
+- [x] auto set icon based-on window name using regex
+- [x] auto source custom config file `<prefix>R`
+- [ ] allow change keybinding via options
+- [ ] auto set background of tmux session name by name
+
+# What is this plugin going to change?
+
+- set default status bar on top
+- added `<prefix>R` for source current config file
+
 # Screenshots
 
 ![Icons](./assets/icons.png)
@@ -10,20 +24,25 @@
 
 # Install
 
+1. add below line to your `tmux.conf`
+
 ```tmux
 set -g @plugin 'dtanphat9388/tmux-theme'
 ```
 
+2. reload tmux config with command `tmux source-file`, after source file you can use `<prefix>R` to source current config file
+3. if tmux theme not effect, relaunch tmux with command `tmux kill-server`
+4. remove following redundance options:
+   - key binding using to source file
+   - remove status-position option
+
 # Theme customize via options
 
-1. add theme option to tmux.conf
-
-```tmux
-set -g @tmux-theme-{option_name}
+```diff
+set -g @plugin 'dtanphat9388/tmux-theme'
++set -g @tmux-theme-{option_name}
++ #...
 ```
-
-2. reload tmux config `<prefix>R`
-3. if tmux theme not effect, relaunch tmux with command `tmux kill-server`
 
 | option name             |  default value   | desc                                   |
 | ----------------------- | :--------------: | -------------------------------------- |
