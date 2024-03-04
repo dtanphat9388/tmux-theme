@@ -24,10 +24,17 @@
 
 # Install
 
-1. add below line to your `tmux.conf`
+1. add below line to your `tmux.conf` with predefined icons for window name
 
 ```tmux
 set -g @plugin 'dtanphat9388/tmux-theme'
+set -g @tmux-theme-window-icon "
+ (z|ba)?sh|term
+ n?vim|code|tmux|book.*
+ book|man(ual)?|docs?|cheat
+󱃾 kube.*|k8s|helm(file)?
+ ai|copilot
+"
 ```
 
 2. reload tmux config with command `tmux source-file`, after source file you can use `<prefix>R` to source current config file
