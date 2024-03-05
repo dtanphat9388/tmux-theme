@@ -13,8 +13,7 @@
 - [x] hi-customize theme color
 - [x] customize zoom sign
 - [x] auto set icon based-on window name using regex
-- [ ] allow change keybinding via options
-- [ ] auto set background of tmux session name by name
+- [ ] auto set background based-on session name using regex
 
 ## Requirements
 
