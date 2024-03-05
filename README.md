@@ -1,15 +1,5 @@
 # Add NerdFont icons to tmux window name
 
-## Features
-
-- [x] hi-customize theme color
-- [x] customize zoom sign
-- [x] auto set icon based-on window name using regex
-- [ ] allow change keybinding via options
-- [ ] auto set background of tmux session name by name
-
-## Screenshots
-
 ![Icons](./assets/icons.png)
 ![window active red](./assets/color-red.png)
 ![window active orange](./assets/color-orange.png)
@@ -17,6 +7,14 @@
 ![window zoomed with icon after](./assets/window-zoom-with-icon-after.png)
 ![window zoomed with icon before](./assets/window-zoom-with-icon-before.png)
 ![window index](./assets/window-index.png)
+
+## Features
+
+- [x] hi-customize theme color
+- [x] customize zoom sign
+- [x] auto set icon based-on window name using regex
+- [ ] allow change keybinding via options
+- [ ] auto set background of tmux session name by name
 
 ## Requirements
 
