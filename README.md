@@ -1,4 +1,6 @@
-# Features
+# Add NerdFont icons to tmux window name
+
+## Features
 
 - [x] hi-customize theme color
 - [x] customize zoom sign
@@ -6,7 +8,7 @@
 - [ ] allow change keybinding via options
 - [ ] auto set background of tmux session name by name
 
-# Screenshots
+## Screenshots
 
 ![Icons](./assets/icons.png)
 ![window active red](./assets/color-red.png)
@@ -16,12 +18,12 @@
 ![window zoomed with icon before](./assets/window-zoom-with-icon-before.png)
 ![window index](./assets/window-index.png)
 
-# Requirements
+## Requirements
 
 - [tpm](https://github.com/tmux-plugins/tpm) for install and load plugin
 - [Nerd font](https://www.nerdfonts.com/#home) for display icons
 
-# Setup
+## Setup
 
 1. add below line to your `tmux.conf` with predefined icons for window name
 
@@ -42,7 +44,7 @@ set -g @tmux-theme-window-icon "
 5. Remove following redundance options if you have:
    - remove status-position option
 
-# Theme customize via options
+## Theme customize via options
 
 ```diff
 set -g @plugin 'dtanphat9388/tmux-theme'
@@ -66,7 +68,7 @@ set -g @plugin 'dtanphat9388/tmux-theme'
 | `border-color-active`   |  `color-active`  |                                        |
 | `border-color-inactive` | `color-inactive` |                                        |
 
-## Icons
+### Icons
 
 ![Icons](./assets/icons.png)
 
@@ -83,7 +85,7 @@ set -g @tmux-theme-window-icon "
 "
 ```
 
-## Window and border color
+### Window and border color
 
 - set active color
   ![window active red](./assets/color-red.png)
@@ -93,7 +95,7 @@ set -g @tmux-theme-window-icon "
 set -g @tmux-theme-color-active "red"
 ```
 
-## Window name and zoom format
+### Window name and zoom format
 
 - default format `[#W]`
   ![window zoomed](./assets/window-zoomed.png)
@@ -109,6 +111,6 @@ set -g @tmux-theme-window-name-format '#W'
 set -g @tmux-theme-window-zoom-format '#W '
 ```
 
-# Well-know issues
+## Well-know issues
 
 - icons is smaller because your font is mono font
