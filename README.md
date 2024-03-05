@@ -39,7 +39,7 @@ set -g @tmux-theme-window-icon "
 2. Reload tmux config with command `tmux source-file`.
 3. press `<prefix>I` to install and boooom
 4. If tmux theme not effect, relaunch tmux with command `tmux kill-server`
-5. Remove following redundance options:
+5. Remove following redundance options if you have:
    - remove status-position option
 
 # Theme customize via options
