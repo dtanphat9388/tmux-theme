@@ -58,7 +58,7 @@ WINDOW_NAME="$(window_with_icons "$WINDOW_ICON" "$WINDOW_NAME_BASIC")"
 BORDER_COLOR_ACTIVE=$(get_option "border-color-active" $COLOR_ACTIVE)
 BORDER_COLOR_INACTIVE=$(get_option "border-color-inactive" $COLOR_INACTIVE)
 # -- [STATUS]
-STATUS_POSITION=$(get_option "status_position" "top")
+STATUS_POSITION=$(get_option "status-position" "top")
 
 get_env_name() {
     fullname=$(get_fullname $1)
