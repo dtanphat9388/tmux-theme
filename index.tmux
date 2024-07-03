@@ -38,7 +38,7 @@ window_with_icons() {
   echo "$result"
 }
 
-COLOR_BG=$(get_option "color-bg" "#101419")
+COLOR_BG=$(get_option "color-bg" "terminal")
 COLOR_ACTIVE=$(get_option "color-active" "#17C3B2")
 COLOR_INACTIVE=$(get_option "color-inactive" "#686868")
 # -- [LEFT]

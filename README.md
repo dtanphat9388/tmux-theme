@@ -51,7 +51,7 @@ set -g @plugin 'dtanphat9388/tmux-theme'
 
 | option name             |  default value   | desc                                   |
 | ----------------------- | :--------------: | -------------------------------------- |
-| `color-bg`              |     #101419      | status background                      |
+| `color-bg`              |     terminal     | transparent                            |
 | `color-active`          |     #17C3B2      | color on active (ex: window, border)   |
 | `color-inactive`        |     #686868      | color on inactive (ex: window, border) |
 | `left-color-bg`         |     #FFFFFF      |                                        |
