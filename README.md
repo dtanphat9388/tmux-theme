@@ -26,7 +26,7 @@
 
 ```tmux
 set -g @plugin 'dtanphat9388/tmux-theme'
-set -g @tmux-theme-window-icon "
+set -g @tmux_theme_window_icon "
  (z|ba)?sh|term
  n?vim|code|tmux|book.*
  book|man(ual)?|docs?|cheat
@@ -45,25 +45,25 @@ set -g @tmux-theme-window-icon "
 
 ```diff
 set -g @plugin 'dtanphat9388/tmux-theme'
-+set -g @tmux-theme-{option_name}
++set -g @tmux_theme_{option_name}
 + #...
 ```
 
 | option name             |  default value   | desc                                   |
 | ----------------------- | :--------------: | -------------------------------------- |
-| `color-bg`              |     terminal     | transparent                            |
-| `color-active`          |     #17C3B2      | color on active (ex: window, border)   |
-| `color-inactive`        |     #686868      | color on inactive (ex: window, border) |
-| `left-color-bg`         |     #FFFFFF      |                                        |
-| `left-length`           |        25        | length of left section                 |
-| `right-color-bg`        |     #FFFFFF      |                                        |
-| `right-length`          |        50        | length of right section                |
-| `right-label`           |  #{host_short}   | length of right section                |
-| `window-name-format`    |        #W        | length of right section                |
-| `window-zoom-format`    |       [#W]       | length of right section                |
-| `window-icon`           |                  | show icon by window name               |
-| `border-color-active`   |  `color-active`  |                                        |
-| `border-color-inactive` | `color-inactive` |                                        |
+| `color_bg`              |     terminal     | transparent                            |
+| `color_active`          |     #17C3B2      | color on active (ex: window, border)   |
+| `color_inactive`        |     #686868      | color on inactive (ex: window, border) |
+| `left_color_bg`         |     #FFFFFF      |                                        |
+| `left_length`           |        25        | length of left section                 |
+| `right_color_bg`        |     #FFFFFF      |                                        |
+| `right_length`          |        50        | length of right section                |
+| `right_label`           |  #{host_short}   | length of right section                |
+| `window_name_format`    |        #W        | length of right section                |
+| `window_zoom_format`    |       [#W]       | length of right section                |
+| `window_icon`           |                  | show icon by window name               |
+| `border_color_active`   |  `color_active`  |                                        |
+| `border_color_inactive` | `color_inactive` |                                        |
 
 ### Icons
 
@@ -73,7 +73,7 @@ set -g @plugin 'dtanphat9388/tmux-theme'
 - window name is case-insensitive
 
 ```tmux
-set -g @tmux-theme-window-icon "
+set -g @tmux_theme_window_icon "
  (z|ba)?sh|term
  n?vim|code|tmux|book.*
  book|man(ual)?|docs?|cheat
@@ -89,7 +89,7 @@ set -g @tmux-theme-window-icon "
   ![window active orange](./assets/color-orange.png)
 
 ```tmux
-set -g @tmux-theme-color-active "red"
+set -g @tmux_theme_color_active "red"
 ```
 
 ### Window name and zoom format
@@ -104,8 +104,8 @@ set -g @tmux-theme-color-active "red"
   ![window index](./assets/window-index.png)
 
 ```tmux
-set -g @tmux-theme-window-name-format '#W'
-set -g @tmux-theme-window-zoom-format '#W '
+set -g @tmux_theme_window_name_format '#W'
+set -g @tmux_theme_window_zoom_format '#W '
 ```
 
 ## Well-know issues
