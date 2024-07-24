@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+TMUX_PLUGIN_PREFIX="@tmux_theme"
 tmux_get_plugins() {
 	plugins_list=$(tmux show-option -gqv "@tpm_plugins")
 	for plugin in $plugins_list; do
