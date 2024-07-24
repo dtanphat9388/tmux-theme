@@ -2,7 +2,7 @@
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-TMUX_PLUGIN_PREFIX="@tmux_theme"
+export TMUX_PLUGIN_PREFIX="@tmux_theme"
 
 source $CURRENT_DIR/scripts/shared.sh
 
